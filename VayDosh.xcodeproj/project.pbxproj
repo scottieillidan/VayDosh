@@ -32,9 +32,9 @@
 		165B38E62C83924A00611D5C /* HomeWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B38E52C83924A00611D5C /* HomeWelcomeView.swift */; };
 		165B38E82C83926300611D5C /* EmptySearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165B38E72C83926300611D5C /* EmptySearchResult.swift */; };
 		16660ED42C821A49002DDB98 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16660ED32C821A49002DDB98 /* ColorExtension.swift */; };
-		16660EDB2C822464002DDB98 /* VayDosh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16660ED92C822464002DDB98 /* VayDosh.xcdatamodeld */; };
 		16766B6E2A5AAEF6009BE045 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 16766B6D2A5AAEF6009BE045 /* data.json */; };
 		16882C572BE10AF000DB4AB6 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16882C562BE10AF000DB4AB6 /* LottieView.swift */; };
+		16B0BE042C9B4E7C006FBAB1 /* VayDosh.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16B0BE022C9B4E7C006FBAB1 /* VayDosh.xcdatamodeld */; };
 		16BE613C2BA84D3D000A7577 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BE613B2BA84D3D000A7577 /* CustomButton.swift */; };
 		16C18B842A68462D001769F6 /* LocalisationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C18B832A68462D001769F6 /* LocalisationService.swift */; };
 		16D7EB4D2C99F187006F2896 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 16D7EB4C2C99F187006F2896 /* Lottie */; };
@@ -99,9 +99,9 @@
 		165B38E72C83926300611D5C /* EmptySearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySearchResult.swift; sourceTree = "<group>"; };
 		165CAC732BE11A7100704530 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		16660ED32C821A49002DDB98 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		16660EDA2C822464002DDB98 /* VayDosh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VayDosh.xcdatamodel; sourceTree = "<group>"; };
 		16766B6D2A5AAEF6009BE045 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		16882C562BE10AF000DB4AB6 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		16B0BE032C9B4E7C006FBAB1 /* VayDosh.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VayDosh.xcdatamodel; sourceTree = "<group>"; };
 		16BE613B2BA84D3D000A7577 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		16C18B832A68462D001769F6 /* LocalisationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalisationService.swift; sourceTree = "<group>"; };
 		16DA89282A6593EF0095A09B /* DisplayMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMode.swift; sourceTree = "<group>"; };
@@ -333,7 +333,7 @@
 				16E211FA2A5AAB1600FFD66E /* VayDosh.entitlements */,
 				4F7F16CE2A17A4D80001EAD0 /* Assets.xcassets */,
 				4F6A2A132A01142100D6BE85 /* Preview Content */,
-				16660ED92C822464002DDB98 /* VayDosh.xcdatamodeld */,
+				16B0BE022C9B4E7C006FBAB1 /* VayDosh.xcdatamodeld */,
 			);
 			path = VayDosh;
 			sourceTree = "<group>";
@@ -531,7 +531,6 @@
 				164F5A142C7B97F6005B179B /* EmptyFavoriteWordsList.swift in Sources */,
 				4F8CA5492A07A2BB000DC61F /* FavoriteListView.swift in Sources */,
 				165B38E02C83126100611D5C /* SwitchButtonLabel.swift in Sources */,
-				16660EDB2C822464002DDB98 /* VayDosh.xcdatamodeld in Sources */,
 				4F6A2A082A01142100D6BE85 /* VayDoshApp.swift in Sources */,
 				16E3B82A2C7C601700B82141 /* ShareButton.swift in Sources */,
 				165B38DC2C8300FD00611D5C /* CustomNavigationTitle.swift in Sources */,
@@ -553,6 +552,7 @@
 				4F6A2A0A2A01142100D6BE85 /* Persistence.swift in Sources */,
 				160C3A272C7C8501005E9682 /* VocabularyItem.swift in Sources */,
 				4F6A2A232A01196900D6BE85 /* HomeView.swift in Sources */,
+				16B0BE042C9B4E7C006FBAB1 /* VayDosh.xcdatamodeld in Sources */,
 				165B38E42C83923600611D5C /* DiceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -846,14 +846,13 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		16660ED92C822464002DDB98 /* VayDosh.xcdatamodeld */ = {
+		16B0BE022C9B4E7C006FBAB1 /* VayDosh.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				16660EDA2C822464002DDB98 /* VayDosh.xcdatamodel */,
+				16B0BE032C9B4E7C006FBAB1 /* VayDosh.xcdatamodel */,
 			);
-			currentVersion = 16660EDA2C822464002DDB98 /* VayDosh.xcdatamodel */;
-			name = VayDosh.xcdatamodeld;
-			path = "/Users/adammiziev/Desktop/vay-dosh/VayDosh/VayDosh.xcdatamodeld";
+			currentVersion = 16B0BE032C9B4E7C006FBAB1 /* VayDosh.xcdatamodel */;
+			path = VayDosh.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
